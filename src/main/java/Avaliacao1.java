@@ -11,9 +11,7 @@ import utfpr.ct.dainf.if62c.avaliacao.Complexo;
 public class Avaliacao1 {
 
     public static void main(String[] args) {
-        
-        
-        
+            
     }
     
     public static Complexo[] raizesEquacao(Complexo a, Complexo b, Complexo c){
