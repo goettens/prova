@@ -4,14 +4,19 @@
  * IF62C - Fundamentos de Programação 2
  * 
  * Primeira avaliação parcial 2014/2.
- * @author 
+ * @author José Guilherme da Costa Goetten
  */
+import utfpr.ct.dainf.if62c.avaliacao.Complexo;
+
 public class Avaliacao1 {
 
     public static void main(String[] args) {
-        // implementar main
+        Complexo.
     }
     
-    // implementar raizesEquacao(Complexo, Complexo, Complexo)
+    public static Complexo[] raizesEquacao(Complexo a, Complexo b, Complexo c){
+        (b.prod(-1).soma((b.prod(b).soma(a.prod(c).prod(-4))).sqrt()));
+        
+    }
     
 }
