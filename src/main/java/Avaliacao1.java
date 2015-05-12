@@ -11,12 +11,16 @@ import utfpr.ct.dainf.if62c.avaliacao.Complexo;
 public class Avaliacao1 {
 
     public static void main(String[] args) {
-        Complexo.
+        
+        
+        
     }
     
     public static Complexo[] raizesEquacao(Complexo a, Complexo b, Complexo c){
-        (b.prod(-1).soma((b.prod(b).soma(a.prod(c).prod(-4))).sqrt()));
-        
+        Complexo[] res = new Complexo[2];
+        res[0] = (b.prod(-1).soma((b.prod(b).soma(a.prod(c).prod(-4))).sqrt()[0]).div(a.prod(2)));
+        res[1] = (b.prod(-1).soma((b.prod(b).soma(a.prod(c).prod(-4))).sqrt()[1]).div(a.prod(2)));
+        return res;
     }
     
 }
